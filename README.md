@@ -1,6 +1,6 @@
 # PrepAI Assistant
-![Screenshot 2025-07-08 134951](https://github.com/user-attachments/assets/ae24f7f5-5209-4828-a3c9-afb70bd556c0)
 
+![Screenshot 2025-07-08 134951](https://github.com/user-attachments/assets/ae24f7f5-5209-4828-a3c9-afb70bd556c0)
 
 ![hero-img](https://github.com/user-attachments/assets/9e8eacf8-99fd-463b-aadd-77245188449e)
 
