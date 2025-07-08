@@ -1,0 +1,4 @@
+# Ignore environment variable files
+.env
+backend/.env
+frontend/interview-prep-ai/.env 
