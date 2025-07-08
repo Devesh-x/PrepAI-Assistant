@@ -12,7 +12,7 @@ const { generateInterviewQuestions, generateConceptExplanation } = require("./co
 
 const app = express();
 
-// Middleware to handle CORS
+// CORS middleware: Allows frontend on Vercel and local dev to access backend APIs
 app.use(
     cors({
         origin: [
