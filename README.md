@@ -66,5 +66,16 @@ Before running this project, ensure you have the following installed:
    npm start
    ```
 
+## API Endpoints
+
+### Authentication
+- `POST /api/auth/register` - Create a new user
+- `POST /api/auth/login` - Login user
+- `GET /api/auth/profile` - Get user profile
+
+### AI Features
+- `POST /api/ai/generate-questions` - Generate interview questions
+- `POST /api/ai/generate-explanation` - Explain a concept
+
 ---
 Crafted with ❤️ by Devesh Rajput
