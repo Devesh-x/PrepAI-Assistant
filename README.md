@@ -18,12 +18,25 @@ PrepAI Assistant is a modern web app that helps you prepare for interviews using
 - **Backend:** Node.js, Express, MongoDB
 - **AI:** Gemini API
 
+## Configuration
+
+Create a `.env` file in the `backend` directory:
+```env
+PORT=8000
+DATABASE_URL=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+GEMINI_API_KEY=your_google_gemini_api_key
+```
+
+Create a `.env` file in the `frontend/interview-prep-ai` directory:
+```env
+VITE_BACKEND_URL=http://localhost:8000
+VITE_GEMINI_API_KEY=your_google_gemini_api_key
+```
+
 ## Deployment
 - **Frontend:** Deploy on Vercel
 - **Backend:** Deploy on Render
-- **Environment Variables:**
-  - Frontend: `VITE_BACKEND_URL`, `VITE_GEMINI_API_KEY`
-  - Backend: `DATABASE_URL`, `JWT_SECRET`, `PORT`
 
 ## Prerequisites
 Before running this project, ensure you have the following installed:
