@@ -31,11 +31,27 @@ Before running this project, ensure you have the following installed:
 - [MongoDB](https://www.mongodb.com/) (Local or Atlas)
 - [Git](https://git-scm.com/)
 
-## Quick Start
-1. Clone the repo
-2. Set up `.env` files for both frontend and backend
-3. Run backend: `npm install && npm start` in `/backend`
-4. Run frontend: `npm install && npm run dev` in `/frontend/interview-prep-ai`
+## Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Devesh-x/PrepAI-Assistant.git
+   cd PrepAI-Assistant
+   ```
+
+2. **Frontend Setup**
+   ```bash
+   cd frontend/interview-prep-ai
+   npm install
+   npm run dev
+   ```
+
+3. **Backend Setup**
+   ```bash
+   cd backend
+   npm install
+   npm start
+   ```
 
 ---
 Crafted with ❤️ by Devesh Rajput
