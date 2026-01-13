@@ -25,6 +25,12 @@ PrepAI Assistant is a modern web app that helps you prepare for interviews using
   - Frontend: `VITE_BACKEND_URL`, `VITE_GEMINI_API_KEY`
   - Backend: `DATABASE_URL`, `JWT_SECRET`, `PORT`
 
+## Prerequisites
+Before running this project, ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (v16 or higher)
+- [MongoDB](https://www.mongodb.com/) (Local or Atlas)
+- [Git](https://git-scm.com/)
+
 ## Quick Start
 1. Clone the repo
 2. Set up `.env` files for both frontend and backend
