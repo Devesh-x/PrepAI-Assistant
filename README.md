@@ -4,7 +4,7 @@
 
 ![hero-img](https://github.com/user-attachments/assets/9e8eacf8-99fd-463b-aadd-77245188449e)
 
-PrepAI Assistant is a modern web app that helps you prepare for interviews using AI-powered question generation, answer review, and session management.
+PrepAI Assistant is a modern web app that helps you prepare for interviews using AI-powered question generation, answer review, and session management. It leverages **Google's Gemini 2.0 Flash** model to provide real-time, context-aware feedback and ultra-fast generation.
 
 ## Features
 - AI-generated, role-specific interview questions
