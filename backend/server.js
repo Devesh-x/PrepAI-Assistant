@@ -17,7 +17,10 @@ app.use(
     cors({
         origin: [
             "https://prep-ai-assistant.vercel.app",
-            "http://localhost:5173"
+            "http://localhost:5173",
+            "http://localhost:5174",
+            "http://localhost:5175",
+            "http://localhost:5176"
         ],
         methods: ["GET", "POST", "PUT", "DELETE"],
         allowedHeaders: ["Content-Type", "Authorization"],
@@ -40,7 +43,7 @@ app.use("/api/ai/generate-explanation", protect, generateConceptExplanation);
 
 
 // Serve uploads folder
-app.use("/uploads", express.static(path.join(__dirname,"uploads"), {}));
+app.use("/uploads", express.static(path.join(__dirname, "uploads"), {}));
 
 // Start Server 
 const PORT = process.env.PORT || 5000;
